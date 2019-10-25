@@ -1,5 +1,6 @@
 def consolidate_cart(cart)
-  # code here
+  new_hash = {}
+  cart.map {|food, price, clearance|
 end
 
 def apply_coupons(cart, coupons)
